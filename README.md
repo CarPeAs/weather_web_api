@@ -4,14 +4,14 @@ Bienvenido a la **Weather App**, una aplicación web sencilla que proporciona in
 
 ## 🌟 Características
 
-- **Consulta del clima en tiempo real**: Los usuarios pueden obtener el clima actual para cualquier ciudad que escriban en el cuadro de búsqueda.
+- **Consulta del clima en tiempo real**: Los usuarios pueden obtener el clima actual para cualquier ciudad en el futuro cuadro de busqueda. Actualmente limitado a las ciudades disponibles en el listado de ciudades.
 - **Datos meteorológicos**: Muestra información detallada incluyendo temperatura, humedad y velocidad del viento.
 - **Interfaz amigable**: Fácil de usar con un diseño claro y responsivo.
 
 ## 🛠 Tecnologías Utilizadas
 
 - **HTML**: Para estructurar la página.
-- **CSS**: Para el diseño y estilo de la página.
+- **CSS**: Para el diseño y estilo de la página, mejorado con **Tailwind CSS**, un framework de CSS que facilita la construcción de interfaces modernas y responsivas sin abandonar el diseño personalizado.
 - **JavaScript**: Para la lógica de interacción con la API de OpenWeatherMap.
 - **OpenWeatherMap API**: Provee los datos meteorológicos.
 
@@ -45,7 +45,7 @@ Este proyecto está licenciado bajo [CC-BY-4.0](https://creativecommons.org/lice
 
 ## 🙋 Autor
 
-- [CarPeAs](https://github.com/yO)- *Desarrollo inicial*
+- [CarPeAs](https://github.com/CarPeAs)- *Desarrollo inicial*
 
 ## 🎉 Agradecimientos
 

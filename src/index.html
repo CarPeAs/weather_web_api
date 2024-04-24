@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="bg-blue-500 text-2xl text-white font-bold p-4 text-center">
+        <h1>Weather App</h1>
+        <nav>
+            <!-- Mejoras futuras de navegación otros apartados -->
+        </nav>
+    </header>
+    <div class="flex">
+        <div class="w-1/3 p-4 bg-gray-50">
+            <h3 class="font-bold text-lg  mb-4">Ciudades</h3>
+            <button data-city="Madrid" class="city-button weather-btn w-full mb-2 py-2 px-4 rounded">Madrid</button>
+            <button data-city="Caracas" class="city-button weather-btn w-full mb-2 py-2 px-4 rounded">Caracas</button>
+            <button data-city="Tokio" class="city-button weather-btn w-full mb-2 py-2 px-4 rounded">Tokio</button>
+            <button data-city="Paris" class="city-button weather-btn w-full mb-2 py-2 px-4 rounded">París</button>
+        </div>
+        <div class="w-2/3 p-4">
+            <h3 class="font-bold text-lg mb-4">Detalles del Clima</h3>
+    <div id="weather" class="weather-info p-4 bg-white rounded-lg shadow-md">
+        <h2 id="cityName" class="font-bold text-xl text-center text-white">Ciudad</h2>
+    <!-- <img id="weatherIcon" src="" alt="Weather Icon" class="my-2"> -->
+        <div class="grid grid-cols-2 gap-2">
+            <div id="temperature" class="temperature bg-blue-100 p-2 rounded">Temperatura: <span></span>°C</div>
+            <div id="temperature_max" class="temperature bg-blue-100 p-2 rounded">Temperatura Máxima: <span></span>°C</div>
+            <div id="temperature_min" class="temperature bg-blue-100 p-2 rounded">Temperatura Mínima: <span></span>°C</div>
+            <div id="humidity" class="humidity bg-blue-100 p-2 rounded">Humedad: <span></span>%</div>
+            <div id="wind" class="wind bg-blue-100 p-2 rounded">Viento: <span></span> m/s</div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <script src="../src/app.js"></script>
+</body>
+</html>
