@@ -8,6 +8,10 @@ Bienvenido a la **Weather App**, una aplicación web sencilla que proporciona in
 - **Datos meteorológicos**: Muestra información detallada incluyendo temperatura, humedad y velocidad del viento.
 - **Interfaz amigable**: Fácil de usar con un diseño claro y responsivo.
 
+**Visualización de la web**:
+
+![Versión 1.0](img/v1.png)
+
 ## 🛠 Tecnologías Utilizadas
 
 - **HTML**: Para estructurar la página.
