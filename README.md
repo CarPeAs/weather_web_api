@@ -4,13 +4,15 @@ Bienvenido a la **Weather App**, una aplicación web sencilla que proporciona in
 
 ## 🌟 Características
 
-- **Consulta del clima en tiempo real**: Los usuarios pueden obtener el clima actual para cualquier ciudad en el futuro cuadro de busqueda. Actualmente limitado a las ciudades disponibles en el listado de ciudades.
+- **Consulta del clima en tiempo real**: Los usuarios pueden obtener el clima actual para cualquier ciudad que deseen. Esto se logra a través de dos métodos:
+  - **Ciudades Predefinidas**: Selección rápida del clima actual en ciudades populares listadas directamente en la interfaz de usuario.
+  - **Buscador de Ciudades**: Los usuarios pueden escribir el nombre de cualquier ciudad en el cuadro de búsqueda para obtener datos meteorológicos precisos en tiempo real.
 - **Datos meteorológicos**: Muestra información detallada incluyendo temperatura, humedad y velocidad del viento.
 - **Interfaz amigable**: Fácil de usar con un diseño claro y responsivo.
 
 **Visualización de la web**:
 
-![Versión 1.0](img/v1.png)
+![Versión 1.0](img/v1-1.png)
 
 ## 🛠 Tecnologías Utilizadas
 

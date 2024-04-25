@@ -12,7 +12,12 @@
         <nav>
             <!-- Mejoras futuras de navegación otros apartados -->
         </nav>
+        
     </header>
+    <div class="search-container p-4">
+        <input type="text" id="cityInput" placeholder="Escribe una ciudad aquí" class="p-2 rounded border-2 border-gray-300">
+        <button id="searchWeather" class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Buscar</button>
+    </div>
     <div class="flex">
         <div class="w-1/3 p-4 bg-gray-50">
             <h3 class="font-bold text-lg  mb-4">Ciudades</h3>
@@ -23,11 +28,11 @@
         </div>
         <div class="w-2/3 p-4">
             <h3 class="font-bold text-lg mb-4">Detalles del Clima</h3>
-    <div id="weather" class="weather-info p-4 bg-white rounded-lg shadow-md">
-        <h2 id="cityName" class="font-bold text-xl text-center text-white">Ciudad</h2>
+    <div id="weather" class="weather-info p-4 bg-white rounded-lg shadow-md ">
+        <h2 id="cityName" class="font-bold text-xl text-center text-white text-shadow">Ciudad</h2>
     <!-- <img id="weatherIcon" src="" alt="Weather Icon" class="my-2"> -->
         <div class="grid grid-cols-2 gap-2">
-            <div id="temperature" class="temperature bg-blue-100 p-2 rounded">Temperatura: <span></span>°C</div>
+            <div id="temperature" class="temperature bg-blue-100 p-2 rounded shadow">Temperatura: <span></span>°C</div>
             <div id="temperature_max" class="temperature bg-blue-100 p-2 rounded">Temperatura Máxima: <span></span>°C</div>
             <div id="temperature_min" class="temperature bg-blue-100 p-2 rounded">Temperatura Mínima: <span></span>°C</div>
             <div id="humidity" class="humidity bg-blue-100 p-2 rounded">Humedad: <span></span>%</div>
